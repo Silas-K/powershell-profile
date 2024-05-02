@@ -1,4 +1,3 @@
-# Test commit
 # Linked Files (Destination => Source)
 $symlinks = @{
     $PROFILE.CurrentUserAllHosts                                                                    = ".\Profile.ps1"
