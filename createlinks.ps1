@@ -1,6 +1,7 @@
 # Linked Files (Destination => Source)
 $symlinks = @{
     $PROFILE.CurrentUserAllHosts                                                                    = ".\Profile.ps1"
+    $PROFILE.AllUsersAllHosts                                                                       = ".\Profile.ps1"
     "$HOME\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json" = ".\windowsterminal\settings.json"
 }
 # Create Symbolic Links
