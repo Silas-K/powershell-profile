@@ -40,7 +40,7 @@ Function Get-ScriptDirectory()
 }
 
 # Environment Variables
-$env:BAT_THEME="Visual Studio Dark+"
+$env:BAT_THEME="tokyonight_night"
 $env:nvimhome="$($env:LocalAppData)\nvim"
 $env:psconfighome="$(Get-ScriptDirectory)"
 
