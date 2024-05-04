@@ -13,5 +13,6 @@ foreach ($symlink in $symlinks.GetEnumerator())
 }
 
 # Persist Environment Variables (directory for nvim)
-[System.Environment]::SetEnvironmentVariable('nvimhome', "$($env:LocalAppData)\nvim", [System.EnvironmentVariableTarget]::User)
-[System.Environment]::SetEnvironmentVariable('psconfighome', "$($PSScriptRoot)", [System.EnvironmentVariableTarget]::User)
+# environment variables are now set in 'profile.ps1' only for the shell
+# [System.Environment]::SetEnvironmentVariable('nvimhome', "$($env:LocalAppData)\nvim", [System.EnvironmentVariableTarget]::User)
+# [System.Environment]::SetEnvironmentVariable('psconfighome', "$($PSScriptRoot)", [System.EnvironmentVariableTarget]::User)
