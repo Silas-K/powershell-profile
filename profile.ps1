@@ -40,6 +40,8 @@ Function Get-ScriptDirectory()
 }
 
 # Environment Variables
+# bat tool: https://github.com/sharkdp/bat
+# theme-configuration: https://github.com/folke/tokyonight.nvim/issues/23
 $env:BAT_THEME="tokyonight_night"
 $env:nvimhome="$($env:LocalAppData)\nvim"
 $env:psconfighome="$(Get-ScriptDirectory)"
