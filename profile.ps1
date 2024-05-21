@@ -51,5 +51,21 @@ Set-Alias vi nvim
 Set-Alias vim nvim
 
 # Custom modules/plugins configuration
+# oh-my-posh init pwsh --config "$env:psconfighome\capr4n_power10k_ssh.omp.json" | Invoke-Expression
 oh-my-posh init pwsh --config "$env:psconfighome\capr4n_power10k_modified_2lines.omp.json" | Invoke-Expression
 Import-Module git-aliases -DisableNameChecking
+
+
+#region conda initialize
+# !! Contents within this block are managed by 'conda init' !!
+If (Test-Path "C:\Users\silas\anaconda3\Scripts\conda.exe")
+{
+(& "C:\Users\silas\anaconda3\Scripts\conda.exe" "shell.powershell" "hook") | Out-String | ?{$_} | Invoke-Expression
+}
+#endregion
+
+
+function PsConfigHome
+{
+    Set-Location $($env:psconfighome)
+}
