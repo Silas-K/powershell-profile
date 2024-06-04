@@ -8,11 +8,14 @@
     },
     {
       "command": "unbound",
-      "keys": "ctrl+minus"
+      "keys": "ctrl+shift+space"
     },
     {
-      "command": "unbound",
-      "keys": "ctrl+plus"
+      "keys": "ctrl+space",
+      "command": {
+        "action": "sendInput",
+        "input": "\u001b[32;5u"
+      }
     },
     {
       "command": "find",
