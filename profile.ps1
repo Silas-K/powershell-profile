@@ -57,7 +57,9 @@ Set-Alias grep findstr
 
 # Custom modules/plugins configuration
 # oh-my-posh init pwsh --config "$env:psconfighome\capr4n_power10k_ssh.omp.json" | Invoke-Expression
-oh-my-posh init pwsh --config "$env:psconfighome\capr4n_power10k_modified_2lines.omp.json" | Invoke-Expression
+# oh-my-posh init pwsh --config "$env:psconfighome\capr4n_power10k_modified_2lines.omp.json" | Invoke-Expression
+$omp_config = Join-Path $env:psconfighome ".\capr4n_power10k_modified_2lines.omp.json"
+oh-my-posh --init --shell pwsh --config $omp_config | Invoke-Expression
 Import-Module git-aliases -DisableNameChecking
 
 # icons for files 
