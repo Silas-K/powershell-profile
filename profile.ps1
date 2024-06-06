@@ -1,3 +1,6 @@
+# set PowerShell to UTF-8
+[console]::InputEncoding = [console]::OutputEncoding = New-Object System.Text.UTF8Encoding
+
 Function Get-RealScriptPath()
 {
     # Get script path and name
@@ -77,4 +80,11 @@ If (Test-Path "C:\Users\silas\anaconda3\Scripts\conda.exe")
 function PsConfigHome
 {
     Set-Location $($env:psconfighome)
+}
+
+
+# Utilities
+function which ($command) {
+  Get-Command -Name $command -ErrorAction SilentlyContinue |
+    Select-Object -ExpandProperty Path -ErrorAction SilentlyContinue
 }
