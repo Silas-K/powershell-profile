@@ -49,6 +49,9 @@ $env:BAT_THEME="tokyonight_night"
 $env:nvimhome="$($env:LocalAppData)\nvim"
 $env:psconfighome="$(Get-ScriptDirectory)"
 
+# tab completion for git
+Import-Module posh-git
+
 # Aliases
 Set-Alias vi nvim
 Set-Alias vim nvim
