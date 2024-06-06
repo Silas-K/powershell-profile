@@ -49,11 +49,20 @@ $env:psconfighome="$(Get-ScriptDirectory)"
 # Aliases
 Set-Alias vi nvim
 Set-Alias vim nvim
+Set-Alias ll ls
+Set-Alias grep findstr
 
 # Custom modules/plugins configuration
 # oh-my-posh init pwsh --config "$env:psconfighome\capr4n_power10k_ssh.omp.json" | Invoke-Expression
 oh-my-posh init pwsh --config "$env:psconfighome\capr4n_power10k_modified_2lines.omp.json" | Invoke-Expression
 Import-Module git-aliases -DisableNameChecking
+
+# icons for files 
+Import-Module -Name Terminal-Icons
+
+# Fzf
+Import-Module PSFzf
+# Set-PsFzfOption -PSReadlineChordProvider 'Ctrl+f' -PSReadlineChordReverseHistory 'Ctrl+r'
 
 
 #region conda initialize
