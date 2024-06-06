@@ -11,11 +11,11 @@
       "keys": "ctrl+shift+space"
     },
     {
-      "keys": "ctrl+space",
       "command": {
         "action": "sendInput",
         "input": "\u001b[32;5u"
-      }
+      },
+      "keys": "ctrl+space"
     },
     {
       "command": "find",
@@ -43,9 +43,10 @@
       "backgroundImage": null,
       "backgroundImageOpacity": 0.06,
       "backgroundImageStretchMode": "uniform",
+      "colorScheme": "Catppuccin Macchiato",
       "font": {
         "face": "CaskaydiaCove Nerd Font",
-        "size": 12.0
+        "size": 12
       }
     },
     "list": [
@@ -107,7 +108,6 @@
       {
         "bellStyle": "none",
         "closeOnExit": "always",
-        "colorScheme": "One Half Dark",
         "commandline": "C:\\Users\\silas\\anaconda3\\python.exe C:\\Users\\silas\\anaconda3\\cwp.py C:\\Users\\silas\\anaconda3\\envs\\RTLab C:\\Users\\silas\\anaconda3\\envs\\RTLab\\Library\\bin\\bash.exe -- --cd=\"C:\\Users\\silas\\OneDrive - Jade Hochschule\\..Ingenieurinformatik\\_Semester 02\\RTC - Realtime Computing\\Labor\\Code\"",
         "font": {
           "face": "Consolas"
@@ -127,7 +127,6 @@
       {
         "bellStyle": "none",
         "closeOnExit": "always",
-        "colorScheme": "One Half Dark",
         "commandline": "C:\\Users\\silas\\anaconda3\\python.exe C:\\Users\\silas\\anaconda3\\cwp.py C:\\Users\\silas\\anaconda3\\envs\\oopv C:\\Users\\silas\\anaconda3\\envs\\oopv\\Library\\bin\\bash.exe -- --cd=\"C:\\Users\\silas\\PycharmProjects\"",
         "font": {
           "face": "CaskaydiaCove Nerd Font"
@@ -141,7 +140,6 @@
       {
         "bellStyle": "none",
         "closeOnExit": "always",
-        "colorScheme": "One Half Dark",
         "commandline": "C:\\Program Files\\PowerShell\\7\\pwsh.exe -ExecutionPolicy ByPass -NoExit -Command \"& '%USERPROFILE%\\anaconda3\\shell\\condabin\\conda-hook.ps1' ; conda activate oopv; cd 'C:\\\\Users\\\\silas\\\\PycharmProjects'\"",
         "font": {
           "face": "CaskaydiaCove Nerd Font"
@@ -212,6 +210,75 @@
       "selectionBackground": "#FFFFFF",
       "white": "#CCCCCC",
       "yellow": "#C19C00"
+    },
+    {
+      "background": "#303446",
+      "black": "#51576D",
+      "blue": "#8CAAEE",
+      "brightBlack": "#626880",
+      "brightBlue": "#8CAAEE",
+      "brightCyan": "#81C8BE",
+      "brightGreen": "#A6D189",
+      "brightPurple": "#F4B8E4",
+      "brightRed": "#E78284",
+      "brightWhite": "#A5ADCE",
+      "brightYellow": "#E5C890",
+      "cursorColor": "#F2D5CF",
+      "cyan": "#81C8BE",
+      "foreground": "#C6D0F5",
+      "green": "#A6D189",
+      "name": "Catppuccin Frappe",
+      "purple": "#F4B8E4",
+      "red": "#E78284",
+      "selectionBackground": "#626880",
+      "white": "#B5BFE2",
+      "yellow": "#E5C890"
+    },
+    {
+      "background": "#24273A",
+      "black": "#494D64",
+      "blue": "#8AADF4",
+      "brightBlack": "#5B6078",
+      "brightBlue": "#8AADF4",
+      "brightCyan": "#8BD5CA",
+      "brightGreen": "#A6DA95",
+      "brightPurple": "#F5BDE6",
+      "brightRed": "#ED8796",
+      "brightWhite": "#A5ADCB",
+      "brightYellow": "#EED49F",
+      "cursorColor": "#F4DBD6",
+      "cyan": "#8BD5CA",
+      "foreground": "#CAD3F5",
+      "green": "#A6DA95",
+      "name": "Catppuccin Macchiato",
+      "purple": "#F5BDE6",
+      "red": "#ED8796",
+      "selectionBackground": "#5B6078",
+      "white": "#B8C0E0",
+      "yellow": "#EED49F"
+    },
+    {
+      "background": "#1E1E2E",
+      "black": "#45475A",
+      "blue": "#89B4FA",
+      "brightBlack": "#585B70",
+      "brightBlue": "#89B4FA",
+      "brightCyan": "#94E2D5",
+      "brightGreen": "#A6E3A1",
+      "brightPurple": "#F5C2E7",
+      "brightRed": "#F38BA8",
+      "brightWhite": "#A6ADC8",
+      "brightYellow": "#F9E2AF",
+      "cursorColor": "#F5E0DC",
+      "cyan": "#94E2D5",
+      "foreground": "#CDD6F4",
+      "green": "#A6E3A1",
+      "name": "Catppuccin Mocha",
+      "purple": "#F5C2E7",
+      "red": "#F38BA8",
+      "selectionBackground": "#585B70",
+      "white": "#BAC2DE",
+      "yellow": "#F9E2AF"
     },
     {
       "background": "#282C34",
@@ -419,7 +486,112 @@
       "selectionBackground": "#FFFFFF",
       "white": "#C0C0C0",
       "yellow": "#808000"
+    },
+    {
+      "background": "#232136",
+      "black": "#393552",
+      "blue": "#9CCFD8",
+      "brightBlack": "#817C9C",
+      "brightBlue": "#9CCFD8",
+      "brightCyan": "#EA9A97",
+      "brightGreen": "#3E8FB0",
+      "brightPurple": "#C4A7E7",
+      "brightRed": "#EB6F92",
+      "brightWhite": "#E0DEF4",
+      "brightYellow": "#F6C177",
+      "cursorColor": "#59546D",
+      "cyan": "#EA9A97",
+      "foreground": "#E0DEF4",
+      "green": "#3E8FB0",
+      "name": "rose-pine-moon",
+      "purple": "#C4A7E7",
+      "red": "#EB6F92",
+      "selectionBackground": "#312F44",
+      "white": "#E0DEF4",
+      "yellow": "#F6C177"
     }
   ],
-  "themes": []
+  "theme": "Catppuccin Macchiato",
+  "themes": [
+    {
+      "name": "Catppuccin Frappe",
+      "tab": {
+        "background": "#303446FF",
+        "iconStyle": "default",
+        "showCloseButton": "always",
+        "unfocusedBackground": null
+      },
+      "tabRow": {
+        "background": "#292C3CFF",
+        "unfocusedBackground": "#232634FF"
+      },
+      "window": {
+        "applicationTheme": "dark",
+        "experimental.rainbowFrame": false,
+        "frame": null,
+        "unfocusedFrame": null,
+        "useMica": false
+      }
+    },
+    {
+      "name": "Catppuccin Macchiato",
+      "tab": {
+        "background": "#24273AFF",
+        "iconStyle": "default",
+        "showCloseButton": "always",
+        "unfocusedBackground": null
+      },
+      "tabRow": {
+        "background": "#1E2030FF",
+        "unfocusedBackground": "#181926FF"
+      },
+      "window": {
+        "applicationTheme": "dark",
+        "experimental.rainbowFrame": false,
+        "frame": null,
+        "unfocusedFrame": null,
+        "useMica": false
+      }
+    },
+    {
+      "name": "Catppuccin Mocha",
+      "tab": {
+        "background": "#1E1E2EFF",
+        "iconStyle": "default",
+        "showCloseButton": "always",
+        "unfocusedBackground": null
+      },
+      "tabRow": {
+        "background": "#181825FF",
+        "unfocusedBackground": "#11111BFF"
+      },
+      "window": {
+        "applicationTheme": "dark",
+        "experimental.rainbowFrame": false,
+        "frame": null,
+        "unfocusedFrame": null,
+        "useMica": false
+      }
+    },
+    {
+      "name": "rose-pine-moon",
+      "tab": {
+        "background": "#232136FF",
+        "iconStyle": "default",
+        "showCloseButton": "always",
+        "unfocusedBackground": null
+      },
+      "tabRow": {
+        "background": "#393552FF",
+        "unfocusedBackground": "#908CAAFF"
+      },
+      "window": {
+        "applicationTheme": "dark",
+        "experimental.rainbowFrame": false,
+        "frame": null,
+        "unfocusedFrame": null,
+        "useMica": false
+      }
+    }
+  ]
 }

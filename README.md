@@ -25,3 +25,27 @@
 
 [git aliases](https://github.com/gluons/powershell-git-aliases)
 
+
+## Advanced
+https://dev.to/kevinnitro/fzf-advanced-integration-in-powershell-53p0
+https://github.com/KevinNitroG/windows-dotfiles
+
+
+### Prerequisites / Tools
+- find files
+  [fd](https://github.com/sharkdp/fd)
+
+- recursive search with regex (similar to grep)
+  [riggrep](https://github.com/BurntSushi/ripgrep)
+
+- fuzz finder
+  [fzf](https://github.com/junegunn/fzf)
+
+- preview file content (similar to cat)
+  [bat](https://github.com/sharkdp/bat)
+
+- eza, colored directory tree
+  [eza](https://github.com/eza-community/eza)
+
+- jq, json tool 
+  [jq](https://github.com/jqlang/jq)
