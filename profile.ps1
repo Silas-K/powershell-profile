@@ -90,18 +90,6 @@ Set-PsFzfOption -PSReadlineChordProvider 'Ctrl+f' -PSReadlineChordReverseHistory
 $env:FZF_DEFAULT_OPTS = '--height 100% '
 
 
-
-
-
-#region conda initialize
-# !! Contents within this block are managed by 'conda init' !!
-If (Test-Path "C:\Users\silas\anaconda3\Scripts\conda.exe")
-{
-(& "C:\Users\silas\anaconda3\Scripts\conda.exe" "shell.powershell" "hook") | Out-String | ?{$_} | Invoke-Expression
-}
-#endregion
-
-
 function PsConfigHome
 {
     Set-Location $($env:psconfighome)
